@@ -13,6 +13,12 @@ public class Order {
         this.productName = null;
         this.quantity = 0;
     }
+    public Order(String ID, String name, String PName, int q){ //default constructor
+        this.orderID = ID;
+        this.customerName = name;
+        this.productName = PName;
+        this.quantity = q;
+    }
 
     public String getOrderID() {
         return orderID;
